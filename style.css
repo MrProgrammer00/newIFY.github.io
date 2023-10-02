@@ -1,0 +1,136 @@
+:root {
+    --primary-color: #faf7f7 ;
+    --secondary-color: #74d5e8 ;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/wallpaper.jpg);
+    background-size: cover;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    
+
+}
+
+header {
+    color: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+
+}
+
+.menu {
+    width: 300px;
+    height: 50px;
+    
+    margin-left: 30px;
+    
+}
+header div {
+    border: none;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header div li{
+    list-style: none;
+    cursor: pointer;
+    display: block;
+}
+
+header div li:hover {
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.fullform {
+    
+    width: 100vw;
+    height: 50px;
+    font-size: 30px;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.slogan {
+    margin-top: 5%;
+    width: 100vw;
+    height: 80px;
+    color: var(--primary-color);
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.slogan h2 {
+    font-size: 30px;
+}
+
+.slogan2 {
+    margin-top: 100px;
+    margin-left: 10px;
+    width: 700px;
+    height: 150px;
+    border: 5px solid var(--secondary-color);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+}
+
+.slogan2 h3 {
+    color: var(--primary-color);
+    opacity: 1;
+}
+
+.social {
+    position: fixed;
+    margin-left: 95%;
+    margin-top: -400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50px;
+    height: 450px;
+    
+}
+
+.social span {
+    width: 5px ;
+    height: 100px;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+}
+
+.social h6 {
+    color: var(--primary-color);
+    
+    width: 100px;
+    rotate: -90deg;
+    font-size: 14px;
+}
+.social img {
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+}
